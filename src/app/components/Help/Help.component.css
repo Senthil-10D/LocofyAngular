@@ -1,0 +1,43 @@
+.help-circle-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+}
+.login6 {
+  text-decoration: none;
+  position: absolute;
+  top: calc(50% - 11px);
+  left: 42px;
+  font-weight: 600;
+  color: inherit;
+}
+.help-circle-parent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 77px;
+  height: 30px;
+}
+.language3 {
+  width: 77px;
+  height: 30px;
+  position: relative;
+}
+.help {
+  width: 117px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-xl);
+  box-sizing: border-box;
+  z-index: 2;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--text-1);
+  font-family: var(--font-segoe-ui);
+}

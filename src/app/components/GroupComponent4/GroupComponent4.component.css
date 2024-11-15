@@ -1,0 +1,153 @@
+.frame-child19 {
+  height: 60px;
+  width: 1920px;
+  position: relative;
+  background-color: var(--color-palegoldenrod);
+  display: none;
+  max-width: 100%;
+}
+.patient-id,
+.patient-id-value {
+  position: relative;
+  display: inline-block;
+  min-width: 90px;
+  z-index: 1;
+}
+.patient-id-value {
+  min-width: 60px;
+}
+.patient-id-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-9xs) 0 0;
+  gap: var(--gap-6xs);
+}
+.patient-details-values {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 7px;
+  z-index: 1;
+}
+.patient-details-labels {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-9xs) 0 0;
+}
+.abdullah-ahmad-mansour,
+.name {
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.name {
+  min-width: 57px;
+}
+.abdullah-ahmad-mansour {
+  align-self: stretch;
+  height: 24px;
+  font-weight: 600;
+  flex-shrink: 0;
+}
+.patient-details-labels1 {
+  width: 397.5px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-2xs) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.male,
+.nationality-label,
+.sex {
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.nationality-label {
+  font-weight: 600;
+  min-width: 7px;
+}
+.male,
+.sex {
+  min-width: 36px;
+}
+.male {
+  font-weight: 600;
+  min-width: 42px;
+}
+.patient-details-labels2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-7xs) 0 0;
+}
+.age,
+.div3,
+.visittfr-no,
+.y-07m-25d {
+  position: relative;
+  display: inline-block;
+  min-width: 40px;
+  z-index: 1;
+}
+.div3,
+.visittfr-no,
+.y-07m-25d {
+  min-width: 108px;
+}
+.div3,
+.visittfr-no {
+  min-width: 111px;
+}
+.div3 {
+  min-width: 11px;
+}
+.patient-details-labels6 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xs) 0 0;
+}
+.nationality {
+  display: inline-block;
+  min-width: 101px;
+}
+.nationality,
+.saudi {
+  position: relative;
+  z-index: 1;
+}
+.rectangle-parent3 {
+  align-self: stretch;
+  background-color: var(--color-palegoldenrod);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  padding: var(--padding-mid-2) var(--padding-2xl) var(--padding-lg-8);
+  box-sizing: border-box;
+  gap: var(--gap-7xs-6);
+  max-width: 100%;
+  z-index: 1;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--text-1);
+  font-family: var(--font-segoe-ui);
+}
+@media screen and (max-width: 1400px) {
+  .nationality-label {
+    width: 100%;
+    height: 7px;
+  }
+}

@@ -1,0 +1,120 @@
+.new-specimen-registration-child,
+.new-specimen-registration-item {
+  position: relative;
+  background-color: var(--white);
+  flex-shrink: 0;
+  display: none;
+}
+.new-specimen-registration-child {
+  align-self: stretch;
+  height: 128px;
+  z-index: 0;
+}
+.new-specimen-registration-item {
+  width: 1840px;
+  height: 132px;
+  max-width: 100%;
+  z-index: 1;
+}
+.new-specimen-registration-inner {
+  width: 183px;
+  height: 65px;
+  position: relative;
+  flex-shrink: 0;
+  display: none;
+  z-index: 2;
+}
+.frame-child8 {
+  height: 80px;
+  width: 1920px;
+  position: relative;
+  background-color: var(--icon);
+  display: none;
+  max-width: 100%;
+}
+.menu-icon1 {
+  width: 48px;
+  height: 48px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 4;
+}
+.menu-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-4xs-4);
+}
+.instance-container,
+.main-logo-3-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.main-logo-3-container {
+  width: 774px;
+  justify-content: flex-start;
+}
+.instance-container {
+  flex: 1;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-10xs-4);
+  box-sizing: border-box;
+}
+.frame-container,
+.frame-header {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frame-header {
+  background-color: var(--icon);
+  flex-direction: row;
+  align-items: flex-end;
+  padding: var(--padding-7xs) var(--padding-base) var(--padding-5xs-6);
+  box-sizing: border-box;
+  gap: var(--gap-7xs);
+  top: 0;
+  z-index: 99;
+  position: sticky;
+}
+.frame-container {
+  flex-direction: column;
+  align-items: flex-start;
+}
+.side-menu-icon {
+  width: 20px;
+  height: 1065px;
+  position: absolute;
+  margin: 0 !important;
+  right: -20px;
+  bottom: -65px;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.new-specimen-registration {
+  width: 100%;
+  height: 1080px;
+  position: relative;
+  background-color: var(--white);
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 155px;
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 925px) {
+  .new-specimen-registration {
+    height: auto;
+  }
+}

@@ -1,0 +1,120 @@
+.frame-child21 {
+  height: 100px;
+  width: 1920px;
+  position: relative;
+  background-color: var(--white);
+  display: none;
+  max-width: 100%;
+}
+.stat,
+.type-options {
+  position: relative;
+  z-index: 1;
+}
+.type-options {
+  height: 25px;
+  width: 25px;
+  background-color: var(--color-orangered);
+}
+.stat {
+  font-weight: 600;
+  display: inline-block;
+  min-width: 30px;
+}
+.type-options-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.frame-child22,
+.urgent {
+  position: relative;
+  z-index: 1;
+}
+.frame-child22 {
+  height: 25px;
+  width: 25px;
+  background-color: var(--color-orange);
+}
+.urgent {
+  font-weight: 600;
+  display: inline-block;
+  min-width: 52px;
+}
+.rectangle-parent4 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.frame-child23,
+.routine {
+  position: relative;
+  z-index: 1;
+}
+.frame-child23 {
+  height: 25px;
+  width: 25px;
+  background-color: var(--color-aquamarine-100);
+}
+.routine {
+  font-weight: 600;
+  display: inline-block;
+  min-width: 58px;
+}
+.registration-type-options {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+}
+.registration-types {
+  width: 308px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-mid);
+  box-sizing: border-box;
+}
+.group-section,
+.hospital-order-parent1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: var(--white);
+}
+.group-section {
+  align-self: stretch;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  z-index: 3;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-segoe-ui);
+}
+@media screen and (max-width: 925px) {
+  .group-section {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .hospital-order-parent1 {
+    flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,17 @@
+<div class="input" [ngStyle]="inputStyle">
+  <div class="overlay-top-panel2"></div>
+  <input
+    class="input-wrapper"
+    [placeholder]="placeholder"
+    type="text"
+    [ngStyle]="inputWrapperStyle"
+  />
+  <img
+    class="input-child"
+    alt=""
+    src="assets/group-400.svg"
+    (click)="onGroupClick()"
+  />
+  <div class="input-item"></div>
+  <div class="specimen-no">Specimen No</div>
+</div>

@@ -1,0 +1,206 @@
+.registration1 {
+  text-decoration: none;
+  position: relative;
+  font-weight: 600;
+  color: inherit;
+}
+.overlay-top-panel4 {
+  height: 180px;
+  width: 450px;
+  position: relative;
+  background-color: var(--color-whitesmoke-100);
+  border: 1px solid var(--stroke-1);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.field-label-child {
+  width: 48px;
+  height: 48px;
+  position: relative;
+  z-index: 1;
+}
+.field-label {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xl-2) 0 0;
+}
+.specimen-no1 {
+  margin: 0;
+  width: 147px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  z-index: 1;
+}
+.field-input {
+  height: 108.8px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base-8);
+  max-width: 100%;
+}
+.overlay-top-panel-container,
+.overlay-top-panel5 {
+  background-color: var(--color-whitesmoke-100);
+  border: 1px solid var(--stroke-1);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.overlay-top-panel-container {
+  flex: 1;
+  box-shadow: var(--shadow);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-15xl) var(--padding-4xl) var(--padding-15xl)
+    var(--padding-5xl);
+  gap: var(--gap-11xl);
+}
+.overlay-top-panel5 {
+  width: 450px;
+  height: 180px;
+  position: relative;
+  display: none;
+  z-index: 1;
+}
+.encounter {
+  margin: 0;
+  height: 32px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 112px;
+  z-index: 1;
+}
+.encounter-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-58xl) 0 var(--padding-59xl);
+}
+.frame-child17 {
+  height: 48px;
+  width: 48px;
+  position: relative;
+  z-index: 1;
+}
+.input-frame {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-lg-6) 0 0;
+  box-sizing: border-box;
+}
+.input-frame,
+.instance-group,
+.overlay-top-panel-parent1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.instance-group {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-11xl);
+  margin-top: -1.8px;
+}
+.overlay-top-panel-parent1 {
+  flex: 1;
+  box-shadow: var(--shadow);
+  background-color: var(--color-whitesmoke-100);
+  border: 1px solid var(--stroke-1);
+  box-sizing: border-box;
+  flex-direction: column;
+  padding: var(--padding-15xl) var(--padding-4xl) var(--padding-15xl)
+    var(--padding-5xl);
+}
+.mouwasat-logo-1-1 {
+  height: 264px;
+  width: 1084px;
+  position: absolute;
+  margin: 0 !important;
+  right: 378px;
+  bottom: -113px;
+  object-fit: cover;
+  z-index: 1;
+}
+.input-container1,
+.page-content,
+.registration-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.input-container1 {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  padding: 0 var(--padding-13xl) var(--padding-346xl) 0;
+  box-sizing: border-box;
+  position: relative;
+  gap: 20px 17px;
+  max-width: 100%;
+  font-size: var(--font-size-5xl);
+  color: var(--text-1);
+}
+.page-content,
+.registration-parent {
+  flex-direction: column;
+}
+.registration-parent {
+  align-self: stretch;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.page-content {
+  flex: 1;
+  padding: var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  max-width: calc(100% - 20px);
+  text-align: left;
+  font-size: var(--font-size-7xl);
+  color: var(--color-black);
+  font-family: var(--font-segoe-ui);
+}
+@media screen and (max-width: 925px) {
+  .input-container1 {
+    padding-bottom: var(--padding-218xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .registration1 {
+    font-size: var(--font-size-2xl);
+  }
+  .specimen-no1 {
+    font-size: var(--font-size-lgi);
+  }
+  .overlay-top-panel-container {
+    gap: var(--gap-mini);
+    flex-wrap: wrap;
+  }
+  .encounter {
+    font-size: var(--font-size-lgi);
+  }
+  .encounter-wrapper {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .instance-group {
+    flex-wrap: wrap;
+  }
+}

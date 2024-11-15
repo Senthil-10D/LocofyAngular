@@ -1,0 +1,67 @@
+.login-form2 {
+  height: 55px;
+  width: 183px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) 0 0;
+  box-sizing: border-box;
+  z-index: 6;
+}
+.frame-child13 {
+  width: 0;
+  position: relative;
+  height: 50px;
+  object-fit: contain;
+}
+.vector-container {
+  width: 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 1;
+}
+.second-login-form,
+.vector-container,
+.vector-frame {
+  height: 55px;
+  flex-direction: column;
+  padding: var(--padding-8xs) 0 0;
+  box-sizing: border-box;
+}
+.second-login-form {
+  width: 300px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 4;
+}
+.vector-frame {
+  width: 0;
+  z-index: 2;
+}
+.login-form-group,
+.third-login-form,
+.vector-frame {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.third-login-form {
+  height: 55px;
+  width: 174px;
+  flex-direction: column;
+  padding: var(--padding-8xs) 0 0;
+  box-sizing: border-box;
+}
+.login-form-group {
+  width: 1050px;
+  height: 60px;
+  flex-direction: row;
+  gap: var(--gap-12xs-4);
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--white);
+  font-family: var(--font-segoe-ui);
+}

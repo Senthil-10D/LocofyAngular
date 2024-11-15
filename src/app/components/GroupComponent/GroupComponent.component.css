@@ -1,0 +1,83 @@
+.overlay-top-panel {
+  width: 161.9px;
+  position: relative;
+  background-color: var(--white);
+  border: 1px solid var(--stroke-1);
+  box-sizing: border-box;
+  height: 62.5px;
+  display: none;
+}
+.login-input-icon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  z-index: 3;
+}
+.login1 {
+  text-decoration: none;
+  width: 75px;
+  height: 21px;
+  position: relative;
+  font-weight: 600;
+  color: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.login-input-label {
+  height: 23px;
+  width: 87px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) var(--padding-smi) 0 0;
+  box-sizing: border-box;
+}
+.login-input-bottom-icon {
+  width: 12px;
+  height: 7.4px;
+  position: relative;
+  object-fit: contain;
+}
+.login-input-spacing {
+  height: 15.4px;
+  width: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) 0 0;
+  box-sizing: border-box;
+  z-index: 1;
+}
+.login-input-icon-parent,
+.login-inputs,
+.overlay-top-panel-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.login-input-icon-parent {
+  height: 24px;
+  width: 143px;
+  gap: var(--gap-3xs);
+}
+.login-inputs,
+.overlay-top-panel-parent {
+  height: 50px;
+  box-sizing: border-box;
+}
+.login-inputs {
+  width: 240px;
+  padding: var(--padding-smi) var(--padding-xl);
+  flex-shrink: 0;
+}
+.overlay-top-panel-parent {
+  width: 183px;
+  padding: 0;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--white);
+  font-family: var(--font-segoe-ui);
+}

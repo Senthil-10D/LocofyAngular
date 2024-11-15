@@ -1,0 +1,33 @@
+<section class="specimen-details-v3" [attr.data-property1]="property1">
+  <div class="header">
+    <div class="tab-border-parent">
+      <div class="tab-border"></div>
+      <div class="active-tab-border"></div>
+    </div>
+    <taps-butten [property1]="'Active'" [specimenDetails]="'Specimen Details'">
+    </taps-butten
+    ><taps-butten
+      [property1]="'Normal'"
+      [specimenDetailsWidth]="'114px'"
+      [specimenDetails]="'Others'"
+    >
+    </taps-butten
+    ><taps-butten
+      [property1]="'Normal'"
+      [specimenDetailsWidth]="'147px'"
+      [specimenDetails]="'Comments'"
+    >
+    </taps-butten
+    ><taps-butten
+      [property1]="'Normal'"
+      [specimenDetailsWidth]="'216px'"
+      [specimenDetails]="'Add Clinical History'"
+    >
+    </taps-butten>
+  </div>
+  <div class="data-separator-parent">
+    <div class="data-separator"></div>
+    <specimen-data-columns> </specimen-data-columns
+    ><collection-date> </collection-date>
+  </div>
+</section>

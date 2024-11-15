@@ -1,0 +1,45 @@
+.specimen-details {
+  height: 24px;
+  width: 137px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.root1,
+.specimen-details-tab-labels {
+  height: 48px;
+  width: 196px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.specimen-details-tab-labels {
+  background-color: var(--color-lavender);
+  border-bottom: 2px solid var(--button-3);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  padding: var(--padding-xs) var(--padding-11xl);
+}
+.root1 {
+  z-index: 5;
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: var(--text-1);
+  font-family: var(--font-segoe-ui);
+}
+.root1[data-property1="Normal"] {
+  z-index: 2;
+}
+.root1[data-property1="Normal"] .specimen-details-tab-labels {
+  width: 114px;
+  background-color: var(--white);
+  border-bottom: unset;
+  overflow: unset;
+  flex-shrink: unset;
+}
+.root1[data-property1="Normal"] .specimen-details {
+  width: 55px;
+  color: var(--button-3);
+}

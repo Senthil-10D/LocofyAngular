@@ -1,0 +1,119 @@
+.doctor1 {
+  font-size: var(--font-size-sm);
+  color: var(--text-2);
+}
+.doctor {
+  height: 21px;
+  width: 48.3px;
+  position: relative;
+  display: inline-block;
+}
+.doctor-wrapper {
+  width: 49.3px;
+  height: 21px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-12xs);
+  box-sizing: border-box;
+  z-index: 2;
+}
+.overlay-top-panel6 {
+  height: 50px;
+  width: 75px;
+  position: absolute;
+  margin: 0 !important;
+  top: -17px;
+  left: -10px;
+  background-color: var(--white);
+  border: 1px solid var(--stroke-1);
+  box-sizing: border-box;
+  z-index: 0;
+}
+.div5 {
+  height: 21px;
+  width: 60px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.frame-parent6,
+.overlay-top-panel-parent2 {
+  width: 59px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.overlay-top-panel-parent2 {
+  height: 21px;
+  flex-direction: row;
+  position: relative;
+  z-index: 1;
+  color: var(--text-1);
+}
+.frame-parent6 {
+  height: 50px;
+  flex-direction: column;
+  gap: var(--gap-5xs);
+  z-index: 4;
+}
+.overlay-top-panel7,
+.white-space {
+  position: absolute;
+  margin: 0 !important;
+  background-color: var(--white);
+}
+.white-space {
+  height: 13px;
+  width: 52px;
+  top: 5px;
+  left: 9px;
+  z-index: 1;
+}
+.overlay-top-panel7 {
+  height: 50px;
+  width: 170px;
+  top: -17px;
+  right: -37px;
+  border: 1px solid var(--stroke-1);
+  box-sizing: border-box;
+  z-index: 0;
+}
+.amir-el-sayed {
+  height: 21px;
+  width: 124px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.order-no,
+.overlay-top-panel-parent3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  position: relative;
+}
+.overlay-top-panel-parent3 {
+  height: 21px;
+  width: 123px;
+  align-items: flex-start;
+  z-index: 2;
+  color: var(--text-1);
+}
+.order-no {
+  height: 62px;
+  width: 250px;
+  align-items: flex-end;
+  padding: 0 var(--padding-3xs) var(--padding-xs);
+  box-sizing: border-box;
+  gap: var(--gap-2xl);
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-red);
+  font-family: var(--font-segoe-ui);
+}

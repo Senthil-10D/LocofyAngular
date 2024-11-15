@@ -1,0 +1,120 @@
+.registration-child {
+  width: 300px;
+  height: 80px;
+  background-color: var(--button-2);
+  flex-shrink: 0;
+}
+.div,
+.frame-child,
+.registration-child {
+  position: relative;
+  display: none;
+}
+.div {
+  font-weight: 600;
+  min-width: 10px;
+}
+.frame-child {
+  height: 80px;
+  width: 1920px;
+  background-color: var(--icon);
+  max-width: 100%;
+}
+.menu-icon {
+  width: 48px;
+  height: 48px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.menu-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-4xs-4);
+}
+.instance-wrapper,
+.main-logo-3-wrapper,
+.rectangle-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.main-logo-3-wrapper {
+  width: 774px;
+  justify-content: flex-start;
+}
+.instance-wrapper,
+.rectangle-parent {
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-10xs-4);
+  box-sizing: border-box;
+}
+.rectangle-parent {
+  align-self: stretch;
+  background-color: var(--icon);
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) var(--padding-base) var(--padding-5xs-6);
+  gap: var(--gap-7xs);
+  top: 0;
+  z-index: 99;
+  position: sticky;
+}
+.frame-item {
+  height: 1065px;
+  width: 20px;
+  position: relative;
+}
+.instance-parent,
+.registration {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.instance-parent {
+  align-self: stretch;
+  height: 1000px;
+  flex-shrink: 0;
+  flex-direction: row;
+  padding: 0 0 380px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.registration {
+  width: 100%;
+  position: relative;
+  background-color: var(--white);
+  overflow-y: auto;
+  flex-direction: column;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-3xl);
+  color: var(--text-1);
+  font-family: var(--font-segoe-ui);
+}
+@media screen and (max-width: 1400px) {
+  .instance-parent {
+    padding-bottom: 247px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 925px) {
+  .instance-parent {
+    padding-bottom: 161px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .div {
+    font-size: var(--font-size-lg);
+  }
+  .instance-parent {
+    height: auto;
+  }
+}

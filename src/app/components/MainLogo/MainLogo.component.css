@@ -1,0 +1,32 @@
+.main-logo-3-child {
+  height: 46.4px;
+  width: 34.9px;
+  position: relative;
+}
+.enterprise-management1,
+.v12162 {
+  margin: 0;
+}
+.v12162 {
+  font-size: var(--font-size-sm);
+}
+.enterprise-management-v12162-container {
+  height: 45px;
+  width: 226px;
+  position: relative;
+  display: inline-block;
+}
+.main-logo-3 {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+  gap: var(--gap-xs);
+  cursor: pointer;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--white);
+  font-family: var(--font-segoe-ui);
+}

@@ -1,0 +1,105 @@
+.back-button-child {
+  height: 72px;
+  width: 40px;
+  position: relative;
+  background-color: var(--mouse-hover);
+  display: none;
+}
+.back-button-icon {
+  height: 18px;
+  width: 11.1px;
+  position: relative;
+  object-fit: contain;
+  z-index: 1;
+}
+.back-button {
+  background-color: var(--mouse-hover);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xl) var(--padding-sm);
+  z-index: 1;
+}
+.new-specimen-registration1 {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+  z-index: 1;
+}
+.back-button-parent,
+.new-specimen-registration-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.new-specimen-registration-wrapper {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  min-width: 212px;
+}
+.back-button-parent {
+  width: 378px;
+  flex-direction: row;
+  gap: var(--gap-xs);
+}
+.priority-specimen {
+  position: relative;
+  display: inline-block;
+  min-width: 125px;
+  z-index: 1;
+}
+.checkbox-labels {
+  flex-direction: row;
+  gap: var(--gap-3xs);
+}
+.checkbox-labels,
+.checkbox-labels-parent,
+.frame-parent5,
+.frame-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.checkbox-labels-parent {
+  flex-direction: row;
+  gap: var(--gap-xl);
+}
+.frame-parent5,
+.frame-wrapper {
+  flex-direction: column;
+  padding: var(--padding-6xl) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--font-size-base);
+}
+.frame-parent5 {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 var(--padding-xl) 0 0;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-7xl);
+  color: var(--text-1);
+  font-family: var(--font-segoe-ui);
+}
+@media screen and (max-width: 925px) {
+  .frame-parent5 {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .new-specimen-registration1 {
+    font-size: var(--font-size-2xl);
+  }
+  .back-button-parent {
+    flex-wrap: wrap;
+  }
+}

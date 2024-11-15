@@ -1,0 +1,77 @@
+.overlay-top-panel3 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--white);
+  border: 1px solid var(--stroke-1);
+  box-sizing: border-box;
+  z-index: 0;
+}
+.hospital-order {
+  margin: 0;
+  width: 196.8px;
+  height: 32px;
+  position: relative;
+  font-size: inherit;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  z-index: 0;
+}
+.frame-child15,
+.frame-child16 {
+  position: absolute;
+  margin: 0 !important;
+}
+.frame-child15 {
+  width: 64px;
+  height: 64px;
+  top: 0;
+  left: 65.7px;
+  border-radius: 50%;
+  background-color: var(--mouse-hover);
+  z-index: 1;
+}
+.frame-child16 {
+  width: 32px;
+  height: 32px;
+  top: 16px;
+  left: 81.7px;
+  z-index: 2;
+}
+.dash-btn,
+.hospital-order-parent {
+  height: 111px;
+  width: 195.8px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: var(--padding-60xl) 0 0;
+  box-sizing: border-box;
+  position: relative;
+  z-index: 1;
+}
+.dash-btn {
+  height: 180px;
+  width: 300px;
+  box-shadow: var(--shadow);
+  border: 1px solid var(--stroke-1);
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: var(--padding-10xl) var(--padding-32xl-3) var(--padding-21xl);
+  z-index: 3;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--text-1);
+  font-family: var(--font-segoe-ui);
+}

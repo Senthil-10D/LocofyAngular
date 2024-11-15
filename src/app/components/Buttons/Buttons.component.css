@@ -1,0 +1,53 @@
+.buttons-child {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--icon);
+  z-index: 0;
+}
+.login8,
+.root {
+  display: flex;
+  position: relative;
+  z-index: 1;
+}
+.login8 {
+  text-decoration: none;
+  height: 29px;
+  width: 55px;
+  font-size: var(--font-size-3xl);
+  font-family: var(--font-segoe-ui);
+  color: var(--white);
+  text-align: left;
+  align-items: center;
+  flex-shrink: 0;
+}
+.root {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-base) var(--padding-20xl) var(--padding-mini);
+  background-color: transparent;
+  height: 60px;
+  width: 140px;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.root[data-property1="B2"] {
+  z-index: 2;
+}
+.root[data-property1="B2"] .buttons-child {
+  background-color: unset;
+  border: 1px solid var(--button-2);
+  box-sizing: border-box;
+}
+.root[data-property1="B2"] .login8 {
+  width: 66px;
+  color: var(--button-2);
+}

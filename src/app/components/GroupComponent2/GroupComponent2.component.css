@@ -1,0 +1,82 @@
+.third-login-input-icon {
+  height: 24px;
+  width: 25.3px;
+  position: relative;
+  z-index: 2;
+}
+.login3 {
+  text-decoration: none;
+  width: 64px;
+  height: 21px;
+  position: relative;
+  font-weight: 600;
+  color: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.third-login-input-label,
+.third-login-input-row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.third-login-input-label {
+  height: 23px;
+  width: 63px;
+  flex-direction: column;
+  padding: var(--padding-11xs) 0 0;
+  box-sizing: border-box;
+  z-index: 1;
+}
+.third-login-input-row {
+  height: 24px;
+  width: 99px;
+  flex-direction: row;
+  gap: var(--gap-2xs-7);
+  z-index: 2;
+}
+.third-login-input-bottom-icon {
+  width: 12px;
+  height: 7.4px;
+  position: relative;
+  object-fit: contain;
+}
+.third-login-input-spacing {
+  height: 15.4px;
+  width: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) 0 0;
+  box-sizing: border-box;
+  z-index: 1;
+}
+.third-login-input-row-parent,
+.third-login-inputs,
+.third-login-inputs-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.third-login-input-row-parent {
+  height: 24px;
+  width: 134px;
+  gap: var(--gap-4xl);
+}
+.third-login-inputs,
+.third-login-inputs-wrapper {
+  width: 174px;
+  height: 50px;
+}
+.third-login-inputs {
+  padding: var(--padding-smi) var(--padding-xl);
+  box-sizing: border-box;
+}
+.third-login-inputs-wrapper {
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--white);
+  font-family: var(--font-segoe-ui);
+}

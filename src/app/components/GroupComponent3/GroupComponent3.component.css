@@ -1,0 +1,51 @@
+.overlay-top-panel21 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--icon);
+  z-index: 0;
+}
+.hospital-order1,
+.root2 {
+  display: flex;
+  position: relative;
+  z-index: 1;
+}
+.hospital-order1 {
+  height: 24px;
+  width: 114px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.root2 {
+  height: 60px;
+  width: 180px;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-mid) var(--padding-13xl-6) var(--padding-lgi)
+    var(--padding-15xl-4);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: var(--white);
+  font-family: var(--font-segoe-ui);
+}
+.root2[data-property1="S2 Defalult"] {
+  z-index: 2;
+}
+.root2[data-property1="S2 Defalult"] .overlay-top-panel21 {
+  background-color: unset;
+  border: 1px solid var(--button-2);
+  box-sizing: border-box;
+}
+.root2[data-property1="S2 Defalult"] .hospital-order1 {
+  width: 54px;
+  color: var(--button-2);
+}

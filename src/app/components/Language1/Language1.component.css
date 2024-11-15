@@ -1,0 +1,49 @@
+.frame-child9 {
+  position: absolute;
+  top: calc(50% - 0px);
+  left: 116px;
+  width: 10px;
+  height: 5px;
+}
+.login4 {
+  text-decoration: none;
+  position: absolute;
+  top: calc(50% - 11px);
+  left: 42px;
+  font-weight: 600;
+  color: inherit;
+}
+.vector-icon {
+  position: absolute;
+  top: calc(50% - 15px);
+  left: 0;
+  width: 30px;
+  height: 30px;
+}
+.group-div,
+.language {
+  width: 126px;
+  height: 30px;
+}
+.group-div {
+  position: absolute;
+  top: calc(50% - 15px);
+  left: 0;
+}
+.language {
+  position: relative;
+}
+.language1 {
+  width: 166px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--white);
+  font-family: var(--font-segoe-ui);
+}
